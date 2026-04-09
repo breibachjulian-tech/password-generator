@@ -56,9 +56,9 @@ This ensures strong, unpredictable passwords that are difficult to crack.
 
 ## Stretch Goals
 
-- [ ] SET PASSWORD LENGTH - Allow users to customize password length
-- [ ] ADD COPY AND CLICK - Copy passwords to clipboard with one click
-- [ ] TOGGLE SYMBOLS AND NUMBERS on/off - Allow users to customize character set
+- [x] SET PASSWORD LENGTH - Allow users to customize password length
+- [x] ADD COPY AND CLICK - Copy passwords to clipboard with one click
+- [x] TOGGLE SYMBOLS AND NUMBERS on/off - Allow users to customize character set
 
 ## Getting Started
 
