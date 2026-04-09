@@ -11,12 +11,8 @@ function generatePassword() {
     return password;
 }
 
-document.getElementById("btn-generate-1").addEventListener("click", function() {
-    document.getElementById("password-1").textContent = generatePassword();
-});
-
-document.getElementById("btn-generate-2").addEventListener("click", function() {
-    document.getElementById("password-2").textContent = generatePassword();
+document.getElementById("btn-generate").addEventListener("click", function() {
+    document.getElementById("password-display").textContent = generatePassword();
 });
 
 

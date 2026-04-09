@@ -9,7 +9,7 @@ A simple, fast, and secure random password generator built with HTML, CSS, and J
 
 ## Features
 
-- **Dual Password Generation**: Generate 2 random passwords simultaneously with one button click
+- **Single Click Generation**: Generate a secure random password with one button click
 - **Secure Character Set**: Includes uppercase, lowercase, numbers, and special characters
 - **Dark Theme UI**: Clean and modern dark interface
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
