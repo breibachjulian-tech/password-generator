@@ -64,14 +64,90 @@ p {
     transform: scale(0.98);
 }
 
+.controls {
+    background-color: #1a202c;
+    border: 1px solid #4a5568;
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.control-group label {
+    color: #cbd5e0;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.control-group input[type="number"] {
+    background-color: #2d3748;
+    border: 1px solid #4a5568;
+    border-radius: 4px;
+    padding: 6px 10px;
+    color: #10b981;
+    font-size: 14px;
+    width: 70px;
+}
+
+.control-group input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.button-group {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.btn-reset {
+    background-color: #718096;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: column;
+}
+
+.btn-reset:hover {
+    background-color: #4a5568;
+}
+
+.btn-reset:active {
+    transform: scale(0.98);
+}
+
 .password-container {
     display: flex;
     gap: 12px;
     margin-bottom: 20px;
 }
 
-.password-display {
+.password-box {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.password-display {
     background-color: #1a202c;
     border: 1px solid #4a5568;
     border-radius: 6px;
@@ -85,4 +161,28 @@ p {
     text-overflow: ellipsis;
     display: flex;
     align-items: center;
+}
+
+.btn-copy {
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-copy:hover {
+    background-color: #3182ce;
+}
+
+.btn-copy:active {
+    transform: scale(0.98);
+}
+
+.btn-copy.copied {
+    background-color: #10b981;
 }
