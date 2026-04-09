@@ -5,7 +5,7 @@ A simple, fast, and secure random password generator built with HTML, CSS, and J
 
 ## Preview
 
-![Password Generator Preview](images/preview.png)
+![Password Generator Preview](images/finalproduct.png)
 
 ## Features
 
