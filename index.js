@@ -12,7 +12,16 @@ function generatePassword() {
 }
 
 document.getElementById("btn-generate").addEventListener("click", function() {
-    document.getElementById("password-display").textContent = generatePassword();
+    let password1 = generatePassword();
+    let password2 = generatePassword();
+    
+    // Ensure the two passwords are different
+    while (password1 === password2) {
+        password2 = generatePassword();
+    }
+    
+    document.getElementById("password-display-1").textContent = password1;
+    document.getElementById("password-display-2").textContent = password2;
 });
 
 
